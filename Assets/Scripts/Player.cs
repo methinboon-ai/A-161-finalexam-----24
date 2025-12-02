@@ -4,8 +4,8 @@ public class Player : MonoBehaviour
 {
     [field:SerializeField] public float moveSpeed { get; private set; } = 5f;
     [field: SerializeField] public float jumpForce { get; private set; } = 10f;
-    
-    public bool isInvulnerable { get; private set; } = false;
+
+    [field: SerializeField] public bool isInvulnerable { get; private set; } = false;
 
     Rigidbody2D rb;
 
